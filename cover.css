@@ -23,6 +23,9 @@ body {
 
 .cover-container {
   max-width: 42em;
+  overflow: hidden;
+  max-height: 100%;
+  position: relative;
 }
 
 
@@ -79,7 +82,7 @@ header{
   margin-top: 2rem;
 }
 .circle{
-  width: 30%;
+  width: 100%;
   position: absolute;
   z-index: -1;
   right: 0;
@@ -111,6 +114,6 @@ header{
     font-size: 1.5rem;
   }
   .circle{
-    width: 70%;
+    width: 100%;
   }
 }
